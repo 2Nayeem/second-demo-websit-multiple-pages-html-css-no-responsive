@@ -6,7 +6,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: darkblue;
+    background-color: rgb(3, 3, 87);
     align-items: center;
     padding: 10px 200px;
     border-bottom: 4px solid rgba(245, 245, 245, 0.622);
@@ -77,4 +77,40 @@ header{
     margin-right: 15px;
     padding: 5px 20px;
     font-size: 20px;
+}
+
+/* main section started */
+
+main{
+    background-color: darkblue;
+}
+
+main > section{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.videotitle{
+    display: flex;
+    justify-content: space-between;
+}
+.videotitle h3{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.pagelist h4{
+    color: white;
+    font-weight: bold;
+}
+
+.pagelist span{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
 }
