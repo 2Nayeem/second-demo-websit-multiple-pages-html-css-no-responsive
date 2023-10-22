@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    align-items: center;
+    padding: 10px 200px;
+    border-bottom: 4px solid rgba(245, 245, 245, 0.622);
+}
+
+nav > div > h2{
+    color: white;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav > ul > li{
+    list-style-type: none;
+    margin: 10px 5px;
+}
+
+nav > ul > li >a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+nav > ul > li >a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* hero area starts */
+
+
+header{
+    background-image: url('img/galaxy.jpg');
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.searchicon > i{
+    font-size: 20px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.searchbox > input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 15px;
+    padding: 5px 20px;
+    font-size: 20px;
+}
