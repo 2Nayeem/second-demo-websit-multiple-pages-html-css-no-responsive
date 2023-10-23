@@ -148,3 +148,112 @@ main > section{
     color: white;
     margin-top: 10px;
 }
+
+/* page style  */
+
+.pagediv{
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagediv > h3 a{
+    background-color: white;
+    color: rgb(52, 50, 50);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.pagediv > h3 a:hover{
+    background-color: black;
+    color: white;
+}
+
+.pagediv a{
+    text-decoration: none;
+}
+
+.pagecount > a{
+    color: black;
+    background-color: white;
+    padding: 7px 10px;
+    margin-left: 12px;
+    border-radius: 5px;
+    
+}
+
+.pagecount a:first-child{
+    background-color: rgb(3, 94, 3);
+    color: white;
+    border: 2px solid lime;
+}
+
+/* footer section start  */
+
+footer{
+    background-color: #030357;
+}
+.footmain{
+    width: 900px;
+    margin: 0 auto;
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 50px;
+    color: white;
+}
+
+.footmain h3{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.footfirst:first-child p{
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.footfirst p:nth-child(3){
+    color: white;
+}
+
+.footsec a{
+    text-decoration: none;
+    color: white;
+    margin: 5px 0;
+    display: inline-block;
+}
+
+.foot3rd{
+    padding-top: 50px;
+}
+.foot3rd a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 10px;
+    background-color: blue;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.foot3rd p{
+    margin-bottom: 10px;
+}
+
+.foot3rd p:last-child{
+    margin-top: 50px;
+}
+
+.foot3rd span{
+    font-size: 22px;
+    color: lime;
+    margin-left: 5px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
