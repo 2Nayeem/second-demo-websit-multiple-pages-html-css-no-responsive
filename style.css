@@ -10,6 +10,9 @@ nav{
     align-items: center;
     padding: 10px 200px;
     border-bottom: 4px solid rgba(245, 245, 245, 0.622);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 nav > div > h2{
