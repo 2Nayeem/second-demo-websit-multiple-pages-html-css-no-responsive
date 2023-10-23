@@ -83,6 +83,7 @@ header{
 
 main{
     background-color: darkblue;
+    padding-top: 20px;
 }
 
 main > section{
@@ -113,4 +114,37 @@ main > section{
     border-radius: 5px;
     margin: 0 10px;
     cursor: pointer;
+}
+
+.allvideos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 20px;
+    margin-top: 50px;
+}
+
+.singlevideos{
+    height: 250px;
+    border: 1px solid green;
+}
+
+.singlevideos:hover img{
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+
+.singlevideos > img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.singlevideotext{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 10px;
 }
