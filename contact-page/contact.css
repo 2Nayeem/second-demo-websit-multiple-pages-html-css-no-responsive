@@ -43,88 +43,121 @@ nav > ul > li >a:hover{
     color: black;
 }
 
+/* nav end  */
 
-/* nav end */
-
-.articlemain{
-    width: 1100px;
-    margin: 100px auto;
-    padding-bottom: 50px;
-}
-
-.articlemain > h2{
-    color: green;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 80px 0;
+.section5title{
     text-align: center;
+    margin: 50px 0;
+
 }
 
-.articlemain > h2 > span{
+.section5title h2{
+    font-size: 40px;
     color: red;
 }
 
-.articleall{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 25px;
+.section5title h3{
+    font-size: 25px;
+     color: gray;
+     letter-spacing: 5px;
 }
-.articlesingle{
-    box-shadow: 4px 4px 4px 4px gray;
+
+
+.section8main{
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.section8formmap{
+    display: flex;
+}
+
+
+.section8form{
+    width: 600px;
+    background-color: bisque;
+}
+
+.section8namemail{
+    display: flex;
+    
+}
+
+.section8namemail input{
+    height: 40px;
+    width: 200px; 
+    margin: 0 20px;
+    border: none;
+    padding: 0 10px;
     border-radius: 5px;
-    transition: 0.5s;
 }
 
-.articlesingle:hover{
-    transform: scale(1.05);
+
+.section8namemail h3{
+    margin: 30px 20px 10px 20px;
 }
 
-.articleimg{
-    height: 400px;
-}
-.articleimg > img{
-    width: 100%;
-    height: 100%;
+
+.section8form > h3{
+    margin: 20px 0 10px 20px;
 }
 
-.blogtext{
-    padding: 20px 30px;
+.section8form > textarea{
+    margin: 0 20px 0 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
 }
 
-.blogtext > span{
-    color: red;
-
+.section8subject{
+    height: 40px;
+    width: 77%; 
+    margin: 0 20px;
+    border: none;
+    padding: 0 10px;
+    border-radius: 5px;
 }
 
-.blogtext > h3{
-    font-size: 22px;
-    margin: 20px 0;
-}
-
-.blogtext > p{
-    color: gray;
-}
-
-.blogtext a{
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 15px;
+.section8submit{
     color: white;
-    font-weight: bold;
-    background-color: black;
-    padding: 5px 10px;
+    background-color: blue;
+    margin: 20px 0 0 20px;
+    padding: 10px 20px;
+    font-size: 12px;
     border-radius: 5px;
-    border: 2px solid black;
+    cursor: pointer;
     transition: 0.5s;
 }
 
-.blogtext a:hover{
-    background-color: rgba(0, 0, 0, 0);
+.section8submit:hover{
+    background-color: white;
     color: black;
 }
 
+.section8icon{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 60px 0;
+}
 
-/* footer started */
+.section8icon i{
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.section8icon h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+
+/* footer start  */
 
 
 footer{
@@ -177,7 +210,6 @@ footer{
     padding: 8px;
     border-radius: 5px;
 }
-
 
 .foot3rd p{
     margin-bottom: 10px;
